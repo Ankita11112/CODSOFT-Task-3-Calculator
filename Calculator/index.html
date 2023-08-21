@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="border">
+        <h1>Calc</h1>
+        <div class="text">
+            <h3>
+                <input type="text" id="result">
+            </h3>
+        </div>
+        <div class="border1">
+            <div class="b1">
+              <button class="btn-grad7" value="7" onClick="display(7)" >7</button> 
+                <button class="btn-grad8" value="8" onClick="display(8)" >8</button>
+                <button class="btn-grad9" value="9" onClick="display(9)">9</button>
+                <button class="btn-grad-del" value="del" onClick="backSpace()">DEL</button>
+            </div>
+            <div class="b2">
+                <button class="btn-grad4" value="4" onClick="display(4)">4</button>
+                <button class="btn-grad5" value="5" onClick="display(5)">5</button>
+                <button class="btn-grad6" value="6" onClick="display(6)">6</button>
+                <button class="btn-grad-plus" value="+" onClick="display('+')">+</button>
+            </div>
+            <div class="b3">
+                <button class="btn-grad1" value="1" onClick="display(1)">1</button>
+                <button class="btn-grad2"value="2" onClick="display(2)" >2</button>
+                <button class="btn-grad3" value="3" onClick="display(3)">3</button>
+                <button class="btn-grad-minus" value="-" onClick="display('-')">-</button>  
+            </div>
+            <div class="b4">
+                <button class="btn-grad-point" value="." onClick="display('.')">.</button>
+                <button class="btn-grad-zero" value="0" onClick="display(0)">0</button>
+                <button class="btn-grad-slash" value="/" onClick="display('/')">/</button>
+                <button class="btn-grad-star" value="*" onClick="display('*')">*</button> 
+            </div>
+            <div class="b5">
+                <button class="btn-grad-reset" value="reset" onClick="clearScreen()">RESET</button>
+                <button class="btn-grad-equalto" value="=" onClick="solve()">=</button> 
+            </div>
+        </div>
+</body>
+
+</html>
